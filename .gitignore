@@ -1,2 +1,4 @@
 python3test/
 **/__pycache__/**
+cgi-abac/.env
+workspace/
