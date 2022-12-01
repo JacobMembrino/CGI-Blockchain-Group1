@@ -1,0 +1,201 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "obj_id",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"name": "NewObjectAdded",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "obj_id",
+						"type": "uint256"
+					}
+				],
+				"name": "ObjectChanged",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "obj_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string[6]",
+						"name": "obj_arg",
+						"type": "string[6]"
+					}
+				],
+				"name": "change_attribs",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "obj_id",
+						"type": "uint256"
+					}
+				],
+				"name": "delete_object",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string[6]",
+						"name": "obj_arg",
+						"type": "string[6]"
+					}
+				],
+				"name": "object_add",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "objects",
+				"outputs": [
+					{
+						"internalType": "enum ObjectAttribute.ObjectState",
+						"name": "state",
+						"type": "uint8"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "campus",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "major",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "dorm",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "year",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "studentID",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "obj_id",
+						"type": "uint256"
+					}
+				],
+				"name": "reactivate_object",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "obj_id",
+						"type": "uint256"
+					}
+				],
+				"name": "suspend_object",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ObjectAttributes.sol": "ObjectAttribute"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ObjectAttributes.sol": {
+			"keccak256": "0x10c7309323cec77af1f0044a0df6d0d081184b354254998e8ba4c8db27324545",
+			"urls": [
+				"bzz-raw://1b29f52713f28bcdd051c9e29080b065edecc933144d5ff1be7486b3e0b6ba8f",
+				"dweb:/ipfs/QmXcZVHVM9HeMC1yyFVjg23MYhNCT8P8XjEq89s13FmVxZ"
+			]
+		}
+	},
+	"version": 1
+}
