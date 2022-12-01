@@ -23,7 +23,7 @@ Create an infura account from `https://www.infura.io/` and get your api key
 1. Create .env file inside `cgi-abac` directory.
 2. In that `.env` file, insert this line `WEB3_INFURA_PROJECT_ID=your_api_key_goes_here`
 3. Type `brownie console --network goerli`
-4. Once within the brownie console, type `network.is_connected()` to see if you are connected. If it shows true, everything is perfectly fine and ready to go
+4. Once within the brownie console, type `network.is_connected()` to see if you are connected
 
 ```
 
